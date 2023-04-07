@@ -5,7 +5,7 @@ import Property from '../../model/nieruchomosci'
 import Searchview from "../../components/Searchview"
 import mongoose from 'mongoose'
 
-export default function index() {
+export default function Index() {
 
 
   const router = useRouter();
