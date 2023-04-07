@@ -6,9 +6,9 @@ import PropertyCard from './SearchEngine/PropertyCard'
 
 export default function Specialoffers() {
 
-  const {property} = useContext(MainContext)
+  const {specialoffers} = useContext(MainContext)
 
-    const results = property.map(i => (
+    const results = data.map(i => (
       <PropertyCard key={i}
         title={i.title}
         code={i.code}

@@ -11,21 +11,22 @@ export default function PropertyCard({title, city, price, descryption, meters, c
 
   const [margin, setMargin] = useState(0); 
 
-  const img = images.map((i, index) => (
-    <div key={index} className='border w-[290px] h-[200px] bg-red-900 overflow-hidden'>
-      {/* Foto {index} */}
-      <Image 
-        src={i}
-        width={400}
-        height={200}
-        priority
-        alt="niruchomości namysłów"
-        // fill
-        responsive
-      />
-      </div>
-  )
-  )
+  const img = ''
+  // images.map((i, index) => (
+  //   <div key={index} className='border w-[290px] h-[200px] bg-red-900 overflow-hidden'>
+  //     {/* Foto {index} */}
+  //     <Image 
+  //       src={i}
+  //       width={400}
+  //       height={200}
+  //       priority
+  //       alt="niruchomości namysłów"
+  //       // fill
+  //       responsive
+  //     />
+  //     </div>
+  // )
+  // )
 
   const slideLeft = () => {
     const imagesWidth = 290

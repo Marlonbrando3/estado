@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useRef, useState } from 'react'
-import useRouter  from 'next/router'
+import { useRouter }  from 'next/router'
 import data from '../data/regions.json'
 import prices from "../data/prices.json"
 
