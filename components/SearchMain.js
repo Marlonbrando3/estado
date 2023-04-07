@@ -60,7 +60,7 @@ export default function SearchMain() {
 
     const price = prices.map(p => {
             return (
-                p.price.map(i => (<option value={i}>{i}</option>)
+                p.price.map(i => (<option key={p} value={i}>{i}</option>)
                 )
             )
         })
