@@ -3,7 +3,7 @@ import { useRef, useState } from 'react'
 import data from '../data/regions.json'
 import prices from "../data/prices.json"
 
-export default function searchsearching() {
+export default function Searchsearching() {
 
     const [powiat, setPowiat] = useState('Namysłowski');
 

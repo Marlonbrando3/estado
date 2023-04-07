@@ -1,7 +1,7 @@
 import React from 'react'
 import Search from './SearchMain'
 
-export default function homeview() {
+export default function Homeview() {
   return (
     <div className='relative w-full h-[470px] bg-cover bg-center bg-[url("../components/images/background_home1.jpeg")] z-0'>
         <div className="absolute w-full bottom-0 h-12 bg-gradient-to-t from-white to-white/[0] z-0"></div>

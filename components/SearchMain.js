@@ -4,7 +4,7 @@ import useRouter  from 'next/router'
 import data from '../data/regions.json'
 import prices from "../data/prices.json"
 
-export default function search() {
+export default function SearchMain() {
 
     const router = useRouter();
 
