@@ -1,0 +1,15 @@
+[
+    {
+        "powiat": "Namysłowski",
+        "miejscowosci":["Wszystkie","Namysłów", "Biestrzykowice", "Pokój"]
+    },
+    {
+        "powiat": "Kluczborski",
+        "miejscowosci":["Wszystkie", "Ligota Zamecka", "Wołczyn", "Kluczbork"]
+    },
+    {
+        "powiat": "Brzeski",
+        "miejscowosci":["Wszystkie", "Brzeg", "Skarbmierz", "Lewin Brzeski"]
+    }
+
+]

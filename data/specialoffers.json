@@ -1,0 +1,44 @@
+[
+    {
+        "post":"Namysłowski",
+        "city":"Namysłów",
+        "price":"15000",
+        "descryption":"Opis Namysłów",
+        "meters":"56m2"
+    },
+    {
+        "post":"Kluczborski",
+        "city":"Wołczyn",
+        "price":"200000",
+        "descryption":"Opis Wołczyn",
+        "meters":"26m2"
+    },
+    {
+        "post":"Kluczborski",
+        "city":"Kluczbork",
+        "price":"17000",
+        "descryption":"Opis Kluczbork",
+        "meters":"54m2"
+    },
+    {
+        "post":"Kluczborski",
+        "city":"Ligota Zamecka",
+        "price":"220000",
+        "descryption":"Opis Ligota",
+        "meters":"104m2"
+    },
+    {
+        "post":"Brzeski",
+        "city":"Lewin Brzeski",
+        "price":"220000",
+        "descryption":"Opis Lewin",
+        "meters":"87m2"
+    },
+    {
+        "post":"Namysłowski",
+        "city":"Biestrzykowice",
+        "price":"210000",
+        "descryption":"Opis Biestrzykowice",
+        "meters":"44m2"
+    }
+]
