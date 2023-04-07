@@ -14,7 +14,7 @@ export default function Searchsearching() {
     const cities = data.map(obj => {
         if(powiat === obj.powiat){
             return (
-                obj.miejscowosci.map(i => (<option value={i}>{i}</option>)
+                obj.miejscowosci.map(i => (<option key={i} value={i}>{i}</option>)
                 )
             )
         }
@@ -22,7 +22,7 @@ export default function Searchsearching() {
 
     const price = prices.map(p => {
             return (
-                p.price.map(i => (<option value={i}>{i}</option>)
+                p.price.map(i => (<option key={p} value={i}>{i}</option>)
                 )
             )
         })

@@ -19,6 +19,7 @@ export default function PropertyCard({title, city, price, descryption, meters, c
         width={400}
         height={200}
         priority
+        alt="niruchomości namysłów"
         // fill
         responsive
       />

@@ -9,7 +9,7 @@ export default function Specialoffers() {
   const {property} = useContext(MainContext)
 
     const results = property.map(i => (
-      <PropertyCard 
+      <PropertyCard key={i}
         title={i.title}
         code={i.code}
         city={i.city}
