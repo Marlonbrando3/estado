@@ -46,7 +46,7 @@ export default function SearchMain() {
     })
 
     const powiats = data.map(obj => (
-        <option ket={obj} value={obj.powiat}>{obj.powiat}</option>
+        <option key={obj} value={obj.powiat}>{obj.powiat}</option>
     ))
 
     const cities = data.map(obj => {

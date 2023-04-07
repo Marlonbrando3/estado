@@ -8,7 +8,7 @@ export default function Searchsearching() {
     const [powiat, setPowiat] = useState('Namysłowski');
 
     const powiats = data.map(obj => (
-        <option value={obj.powiat}>{obj.powiat}</option>
+        <option key={obj} value={obj.powiat}>{obj.powiat}</option>
     ))
 
     const cities = data.map(obj => {
@@ -37,9 +37,6 @@ export default function Searchsearching() {
         setCity(e.target.value)
     }
 
-    // useEffect(() => {
-    //     console.log(powiat.current.value)
-    // })
 
   return (
     <div className='fixed w-[1900px] h-24 mx-auto flex bg-white z-40'>
