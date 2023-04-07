@@ -1,5 +1,5 @@
 import React from 'react'
-import { useRouter } from 'next/router'
+import useRouter  from 'next/router'
 import Header from '../../components/Header'
 import Property from '../../model/nieruchomosci'
 import Searchview from "../../components/Searchview"
